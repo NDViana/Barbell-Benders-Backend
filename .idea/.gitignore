@@ -1,0 +1,42 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+.idea/
+*.iml
+
+# ========== Maven ==========
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+
+# ========== Logs ==========
+*.log
+logs/
+
+# ========== Environment/Secrets ==========
+.env
+application.properties
+application.yml
+application-*.yml
+application-*.properties
+
+# ========== OS Artifacts ==========
+.DS_Store
+Thumbs.db
+
+# ========== VS Code (if using) ==========
+.vscode/
+
+# ========== Eclipse (if ever used) ==========
+.project
+.classpath
+.settings/
+bin/
