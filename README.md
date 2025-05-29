@@ -29,8 +29,8 @@
 git clone https://github.com/NDViana/Barbell-Benders-Backend.git
 cd Barbell-Benders-Backend
 ```
-2. **Create application.properties**
-> ⚠️ This file contains sensitive information and is intentionally excluded from version control. Create it locally in:
+2. **Edit application.properties**
+> ⚠️ This file contains sensitive information and is some code is intentionally excluded from version control. Find it locally in:
 
 ```
 src/main/resources/application.properties
