@@ -14,13 +14,16 @@
 ## Tech Stack
 
 - Java 17
-- Spring Boot 3.x
+- Spring Boot 3.5.0
 - Spring Security + JWT
 - Spring Data JPA
 - PostgreSQL
 - Swagger / OpenAPI
 - Maven
 
+## Live Demo
+
+- Swagger Docs: [https://barbell-benders-backend.onrender.com/swagger-ui/index.html](https://barbell-benders-backend.onrender.com/swagger-ui/index.html)
 
 ## Running Locally
 
@@ -30,10 +33,9 @@ git clone https://github.com/NDViana/Barbell-Benders-Backend.git
 cd Barbell-Benders-Backend
 ```
 2. **Edit application.properties**
-> ⚠️ This file contains sensitive information and is some code is intentionally excluded from version control. Find it locally in:
-
 ```
 src/main/resources/application.properties
+target/classes/application.properties
 ```
 
 Add the following (with your own database credentials):
@@ -67,7 +69,7 @@ From here, you can test endpoints directly. Here's how to use key features:
 ### Register and Login
 
 1. **Register a new user**  
-   Use the `POST /api/auth/register` endpoint. Click "Try it out", enter a JSON like:
+   Use the `POST /api/auth/register` endpoint. Click "Try it out," enter a JSON like:
 
    ```json
    {
