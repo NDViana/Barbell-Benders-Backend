@@ -21,12 +21,7 @@ target/
 *.log
 logs/
 
-# ========== Environment/Secrets ==========
-.env
-application.properties
-application.yml
-application-*.yml
-application-*.properties
+
 
 # ========== OS Artifacts ==========
 .DS_Store
